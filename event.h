@@ -1,17 +1,18 @@
 #ifndef EVENT_H_INCLUDED
 #define EVENT_H_INCLUDED
-#include <gtk/gtk.h>
+
+#include <stdio.h>
+
 typedef struct {
     int id;
     char nom[100];
-    char type[20];  
-    char date[20];
-    char heure[10];
-    char lieu[50];
+    char horaire[10];
+    char lieu[20];
     float frais;
+    char type[20];
     int nb_inscrits;
-    int capacite_max;
-    char categorie[10];  
+    char categorie[10];
+    char date[20];
 } evenement;
 
 typedef struct {
@@ -22,17 +23,10 @@ typedef struct {
     char date_inscription[20];
 } participation;
 
-//Fonctions pour evenement
-int ajouter_evenement(char *, evenement);
-int modifier_evenement(char *, int, evenement);
-int supprimer_evenement(char *, int);
-evenement chercher_evenement(char *, int);
+// Fonction pour ajouter un événement
+int ajouter_evenement(char *filename, evenement e);
 
-
-// Fonctions pour participation
+// Fonction pour participer à un événement
 int participer_evenement(char *filename, participation p);
 
-
-#endif
-
-
+#endif // EVENT_H_INCLUDED
