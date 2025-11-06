@@ -23,10 +23,15 @@ typedef struct {
     char date_inscription[20];
 } participation;
 
-// Fonction pour ajouter un événement
-int ajouter_evenement(char *filename, evenement e);
 
-// Fonction pour participer à un événement
+int ajouter_evenement(char *filename, evenement e);
+int modifier_evenement(char *filename, int id, evenement nouv);
+int supprimer_evenement(char *filename, int id);
+evenement chercher_evenement(char *filename, int id);
+
+
 int participer_evenement(char *filename, participation p);
 
-#endif // EVENT_H_INCLUDED
+#endif
+	
+
