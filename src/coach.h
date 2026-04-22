@@ -1,0 +1,30 @@
+#ifndef COACH_H
+#define COACH_H
+
+
+
+typedef struct {
+    char id[20];
+    char nom[20];
+    char prenom[20];
+    char cin[20];
+    char email[100];
+    char sexe[10];
+    char date_naissance[20];
+    char centre[50];
+    char specialite[20]; 
+    char mot_de_passe[20];
+} Entraineur;
+
+
+
+void envoyer_email_modification(const char *destinataire, const char *mot_de_passe);
+void generer_id_entraineur(const char *filename, char *new_id);
+void ajouter_entraineur(Entraineur e);
+void modifier_entraineur(char id[], Entraineur nouveau);
+void supprimer_entraineur(char id[]);
+void afficher_entraineurs();
+int rechercher_entraineur(const char *cle);
+void statistique();
+
+#endif

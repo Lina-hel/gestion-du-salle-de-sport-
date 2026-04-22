@@ -1,0 +1,5 @@
+linahelali56@gmail.com;Prise de masse;Danse;Debutant;1 fois/semaine;Homme;Nuit: 18:00-21:00;Resume simple
+linahelali56@gmail.com;Prise de masse;Musculation;Debutant;2-3 fois/semaine;Homme;Nuit: 18:00-21:00;Resume simple
+linahelali56@gmail.com;Performance sportive;Danse;Avance;1 fois/semaine;Femme;Matin: 08:00-12:00;lien vers inscription
+mr.ayoub.zitoun@gmail.com;Bien etre/Detente;Natation;Debutant;1 fois/semaine;Homme;Apres midi: 12:00-18:00;Resume simple
+;Perte de poids;Danse;Debutant;1 fois/semaine;Homme;Matin: 08:00-12:00;Resume simple

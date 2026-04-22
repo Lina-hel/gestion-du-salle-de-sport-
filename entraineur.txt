@@ -1,0 +1,6 @@
+1;BenAli;Mohamed;12345678;mohamed.benali@gmail.com;Homme;12/03/1990;fvfds;Cardio
+E002;Trabelsi;Yassine;23456789;yassine.trabelsi@gmail.com;Homme;25/07/1988;vf;Musculation
+E003;Khalfallah;Sara;34567890;sara.khalfallah@gmail.com;Femme;05/11/1995;fvfv;Pilates
+E004;Gharbi;Amine;45678901;amine.gharbi@gmail.com;Homme;19/01/1992;tgttg;Danse
+E005;Mansour;Ines;56789012;ines.mansour@gmail.com;Femme;30/06/1997;ggt;Natation
+
